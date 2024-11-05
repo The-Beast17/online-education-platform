@@ -1,0 +1,194 @@
+.page1 .content .res-left , .page1 nav .ri-menu-3-line{
+    display: none;
+}
+@media (max-width : 600px){
+    .page1 nav{
+        height : 8vh;
+        padding : 0 3vh;
+    }
+
+    .page1 nav .ri-menu-3-line{
+        display: initial;
+        font-size: 3vh;
+        font-weight: 700;
+    }
+   .page1 nav ul , .page1 nav .registration  , .page1 .content .left{
+    display: none;
+   }
+
+   .page1 .content .res-left{
+    display: initial;
+}
+   
+   .page1 {
+     height : max-content;
+   }
+
+   .page1  .content{
+     flex-direction: column;
+     padding : 2vh;
+   }
+   .page1  .content .middle , .page1 .content .right , .page1 .content .res-left{
+    width : 100%;
+    }
+    .page1  .content .middle {
+        height : max-content;
+        padding-top : 20vh;
+        padding-bottom : 90vw;
+    }
+    .page1  .content .middle h1{
+        font-size: 13vw;
+    }
+
+    .page1 .middle .semi-circle{
+        width : 90vw;
+        height : 90vw;
+    }
+    .page1 .middle .registration{
+        bottom : 5vh;
+    }
+    .page1 .middle .registration button{
+        display: flex;
+        align-items: center;
+        height : 4.5vh;
+        width : 15vh;
+        font-size: 2vh;
+    }
+    .page1 .middle .circle-img img{
+        height : 70vw;
+    }
+
+    .page1 .content .res-left{
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        padding-top : 5vh;
+    }
+    .page1 .content .res-left p{
+        font-size: 2.2vh;
+    
+    }
+    .page1 .content .res-left h1{
+        padding-top : 2vh;
+        font-size: 5vh;
+        line-height: 7vh;
+    }
+
+    /*****************page2******************/
+    .page2{
+        height : max-content;
+    }
+    .page2 .heading{
+        width : 100%;
+        padding-top: 10vw;
+    }
+    .page2 .heading h1{
+        font-size: 6.5vw;
+        line-height: 10vw;
+    }
+    .page2 .heading p{
+        font-size: 2.3vw;
+    }
+    .page2 .card-box{
+        overflow-x: scroll;
+    }
+    
+    .page2 .card-box::-webkit-scrollbar{
+        display: none;
+    }
+/***********************page3 ***************/
+    .page3{
+        height : max-content;
+        flex-direction: column;
+    }
+
+    .page3 .left{
+        justify-content: center;
+        height : 50vh;
+        width : 100%;
+        padding : 5vh 0;
+        /* background-color: antiquewhite; */
+    }
+    .page3 .left img{
+       width : 40vh;
+       height : 40vh;
+    }
+
+    .page3 .left  .circle{
+        height : 15vh;
+        width : 15vh;
+        bottom :0;
+        left : 65%;
+    }
+
+    .page3 .right {
+        width : 100%;
+        padding : 20px;
+    }
+    .page3 .right h1{
+        font-size : 8vw;
+    }
+    .page3 .right p{
+        padding : 2vh 0;
+    }
+    .page3 .right p:first-child{
+        font-size: 14px;
+        padding : 0;
+    }
+
+    /************page4******/
+    .page4{
+        height : max-content;
+    }
+    .page4 .heading{
+        width : 100%;
+        padding-top: 10vw;
+    }
+    .page4 .heading h1{
+        font-size: 6.5vw;
+        line-height: 10vw;
+    }
+    .page4 .heading p{
+        font-size: 2.3vw;
+    }
+    .page4 .card-box{
+        overflow-x: scroll;
+    }
+    
+    .page4 .card-box::-webkit-scrollbar{
+        display: none;
+    }
+
+    /***************page5*********/
+    .page5{
+
+    }
+
+    .page5 .heading {
+        width: 100%;
+    }
+    .page5 .heading h1 {
+        font-size : 8vw;
+    }
+    .page5 .card-box{
+        height : 50vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .page5 .card-box .card{
+        width : 300px;
+    }
+    .page5 .card-box .card h1{
+        font-size: 2.5vh;
+    }
+    footer {
+        padding : 3vh 1vh;
+    }
+    
+    footer ul a{
+        font-size: 3vw;
+    }
+    footer p{
+        font-size: 2.4vw;
+    }
+}
